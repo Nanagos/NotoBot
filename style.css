@@ -1,0 +1,47 @@
+body {
+    background: rgb(29, 29, 29);
+}
+
+p, h1, h2, th, td {
+    font-family: helvetica;
+    margin: 5px;
+    color: white;
+}
+
+table {
+    border: 2px solid white;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+th, td {
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+iframe {
+    margin: 10px;
+}
+
+
+/*
+    header, main, footer
+*/
+
+.header {
+    text-align: center;
+}
+
+.main {
+    background: rgb(105, 105, 105);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.footer {
+    background: rgb(105, 105, 105);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
