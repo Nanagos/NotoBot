@@ -1,5 +1,5 @@
 body {
-    background: rgb(29, 29, 29);
+    background: black;
 }
 
 p, h1, h2, th, td {
@@ -19,8 +19,8 @@ th, td {
     border-radius: 2px;
 }
 
-iframe {
-    margin: 10px;
+th:hover, td:hover {
+    border-radius: 8px;
 }
 
 
@@ -33,15 +33,22 @@ iframe {
 }
 
 .main {
-    background: rgb(105, 105, 105);
-    border-radius: 20px;
-    padding-left: 20px;
+    text-align: left;
 }
 
 .footer {
-    background: rgb(105, 105, 105);
-    border-radius: 20px;
     text-align: center;
-    padding: 10px;
+}
+
+.header, .main, .footer {
+    background: rgb(95, 95, 95);
+    padding: 20px;
     margin: 10px;
+    border-radius: 10px;
+}
+
+
+.header:hover, .main:hover, .footer:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 15px;
 }
