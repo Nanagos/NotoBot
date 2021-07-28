@@ -1,9 +1,9 @@
 body {
-    background: black;
+    background:;
 }
 
 p, h1 {
-    font-family: helvetica;
+    font-family: cursive;
     margin: 10px;
     color: white;
 }
@@ -31,6 +31,7 @@ a {
     text-align: center;
     padding-left: 10em;
     padding-right: 10em;
+    opacity: 0.80;
 }
 
 
