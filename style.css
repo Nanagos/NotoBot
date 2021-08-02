@@ -20,7 +20,7 @@ a {
 
 
 /*
-    header, main, footer
+    header, main, footer, section
 */
 
 .header, .main, .footer {
@@ -32,12 +32,6 @@ a {
     padding-left: 10em;
     padding-right: 10em;
     opacity: 0.80;
-}
-
-
-.header:hover, .main:hover, .footer:hover {
-    background: rgb(100, 100, 100);
-    border-radius: 15px;
 }
 
 .section {
